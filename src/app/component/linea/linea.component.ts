@@ -19,7 +19,7 @@ export class LineaComponent  {
     responsive: true
   };
 
-  // public lineChartColors:Array<any> = [
+   public lineChartColors:Array<any> = [
   //   { // grey
   //     backgroundColor: 'rgba(148,159,177,0.2)',
   //     borderColor: 'rgba(148,159,177,1)',
@@ -44,7 +44,7 @@ export class LineaComponent  {
   //     pointHoverBackgroundColor: '#fff',
   //     pointHoverBorderColor: 'rgba(148,159,177,0.8)'
   //   }
-  // ];
+  ];
 
   public lineChartLegend:boolean = true;
   public lineChartType:string = 'line';
